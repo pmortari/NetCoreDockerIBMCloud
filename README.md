@@ -141,6 +141,6 @@ Execute: `kubectl describe service mynetcoreapi-service`
 Finally, we just need to combine the information we got on the previous two commands and we should be able to call our API on the IBM Cloud. You will have something like this: [http://184.173.5.151:31554/weatherforecast](http://184.173.5.151:31554/weatherforecast)
 > Most likely, at the moment you may test this API, the cluster will be already down due to its 30 day expiration period, but trust me, it worked once, and `it was not on my machine!` :)
 
-# Any last words?
+# Final considerations
 
 With this step-by-step, we were able to create a new project using the default `.NET Core Web API` template, build a `Docker image` with it and send it to `IBM Cloud` to be managed using `Kubernetes`. For the next steps, I suggest you to explore the remaining items available `for free` at `IBM Cloud` and even play around with your already created `Kubernetes` instance.
